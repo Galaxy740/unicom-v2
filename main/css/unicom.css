@@ -1,11 +1,11 @@
 
 body {
     font-family: 'Open Sans', Arial, sans-serif;
-    font-size: 17px;
+    font-size: 1.3em;
     font-weight: 300;
     overflow-x: hidden;
     color: white;
-    background-color: #2C353C;
+    background-color: #1E5E97;
 }
 
 a { 
@@ -356,8 +356,8 @@ textarea {
 
 @media (min-width: 763px){
     .imghewi{
-        width: 9.2%;
-        height: 9.2%;
+        width: 8%;
+        height: 8%;
         padding: 0;
         margin: 0;
         

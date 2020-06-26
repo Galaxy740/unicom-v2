@@ -3,29 +3,15 @@
   width: device-width;
 }
 
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 18%}
-    50%{background-position:100% 83%}
-    100%{background-position:0% 18%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 18%}
-    50%{background-position:100% 83%}
-    100%{background-position:0% 18%}
-}
-@keyframes AnimationName {
-    0%{background-position:0% 18%}
-    50%{background-position:100% 83%}
-    100%{background-position:0% 18%}
-}
 
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); */
+
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); */
 html {
   font-size: 18px;
 }
 
 body {
-  font-family: Georgia,Times,Times New Roman,serif; 
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: #8f8f8f;
   margin: 0;
   padding: 0;
@@ -252,7 +238,7 @@ a:focus {
 
   .tm-hero-title-1 {
     
-    font-size: 2.5em;
+    font-size: 2em;
     text-shadow: 2px 2px 2px #333;
   }
 
@@ -725,16 +711,17 @@ figure.effect-honey:hover h2 i {
 /* } */
 
 .start{
-  font-family: Georgia,Times,Times New Roman,serif; 
-  background: linear-gradient(128deg, #2672a3, #0e3880, #3fac41);
+  /* font-family: Georgia,Times,Times New Roman,serif;  */
+  /* background: linear-gradient(128deg, #2672a3, #0e3880, #3fac41);
   background-size: 600% 600%;
   -webkit-animation: AnimationName 53s ease infinite;
   -moz-animation: AnimationName 53s ease infinite;
-  animation: AnimationName 53s ease infinite;
+  animation: AnimationName 53s ease infinite; */
+  
 
-
-  padding: 0;
-  margin: 0;
+  /* padding: 0;
+  margin: 0; */
+  background-color:  #2672a3;
 }
 .imgt{
   margin-top: 2%;
@@ -784,6 +771,7 @@ figure.effect-honey:hover h2 i {
   justify-content: center;
   overflow: hidden;
   position: relative;
+  background-color: transparent;
 }
 
 .circle {
